@@ -14,22 +14,22 @@
           <mxGeometry x="1945" y="53" width="594" height="124" as="geometry" />
         </mxCell>
         <mxCell id="a7DJOjHJFXQFd17sZ_x1-39" value="后端服务" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="-38" width="2040" height="288" as="geometry" />
+          <mxGeometry x="1040" y="-38" width="2010" height="288" as="geometry" />
         </mxCell>
         <mxCell id="a7DJOjHJFXQFd17sZ_x1-40" value="前端界面" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="-290" width="2040" height="188" as="geometry" />
+          <mxGeometry x="1040" y="-250" width="2010" height="148" as="geometry" />
         </mxCell>
         <mxCell id="a7DJOjHJFXQFd17sZ_x1-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="a7DJOjHJFXQFd17sZ_x1-41" target="a7DJOjHJFXQFd17sZ_x1-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a7DJOjHJFXQFd17sZ_x1-41" value="接收图像/参数并发送处理请求" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1052.5" y="-235" width="285" height="78" as="geometry" />
+          <mxGeometry x="1052.5" y="-215" width="285" height="78" as="geometry" />
         </mxCell>
         <mxCell id="a7DJOjHJFXQFd17sZ_x1-42" value="展示增强前后对比图" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="2533" y="-220" width="260" height="78" as="geometry" />
+          <mxGeometry x="2533" y="-215" width="260" height="78" as="geometry" />
         </mxCell>
         <mxCell id="a7DJOjHJFXQFd17sZ_x1-43" value="反馈处理错误信息" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="2904" y="-220" width="158" height="78" as="geometry" />
+          <mxGeometry x="2855" y="-215" width="158" height="78" as="geometry" />
         </mxCell>
         <mxCell id="a7DJOjHJFXQFd17sZ_x1-44" value="处理图像增强请求" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1065" y="74" width="260" height="78" as="geometry" />
@@ -42,17 +42,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a7DJOjHJFXQFd17sZ_x1-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="a7DJOjHJFXQFd17sZ_x1-45" target="a7DJOjHJFXQFd17sZ_x1-49">
+        <mxCell id="a7DJOjHJFXQFd17sZ_x1-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="a7DJOjHJFXQFd17sZ_x1-45" target="a7DJOjHJFXQFd17sZ_x1-49">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1528" y="236" />
-              <mxPoint x="2936" y="236" />
+              <mxPoint x="2887" y="236" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="a7DJOjHJFXQFd17sZ_x1-129" value="验证失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="a7DJOjHJFXQFd17sZ_x1-128">
-          <mxGeometry x="-0.1117" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="a7DJOjHJFXQFd17sZ_x1-131" value="验证失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="a7DJOjHJFXQFd17sZ_x1-130">
+          <mxGeometry x="-0.0164" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a7DJOjHJFXQFd17sZ_x1-45" value="验证图像文件与参数?" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
@@ -74,7 +74,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a7DJOjHJFXQFd17sZ_x1-49" value="生成处理失败响应" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="2889" y="94" width="188" height="54" as="geometry" />
+          <mxGeometry x="2840" y="89" width="188" height="54" as="geometry" />
         </mxCell>
         <mxCell id="a7DJOjHJFXQFd17sZ_x1-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="a7DJOjHJFXQFd17sZ_x1-50" target="a7DJOjHJFXQFd17sZ_x1-51">
           <mxGeometry relative="1" as="geometry" />
@@ -119,11 +119,11 @@
         </mxCell>
         <mxCell id="a7DJOjHJFXQFd17sZ_x1-127" value="失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="a7DJOjHJFXQFd17sZ_x1-116">
           <mxGeometry x="0.5849" y="-3" relative="1" as="geometry">
-            <mxPoint x="-3" y="-13" as="offset" />
+            <mxPoint x="-3" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a7DJOjHJFXQFd17sZ_x1-55" value="更新项目记录" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="2243" y="580" width="260" height="78" as="geometry" />
+          <mxGeometry x="2243" y="565" width="260" height="78" as="geometry" />
         </mxCell>
         <mxCell id="a7DJOjHJFXQFd17sZ_x1-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.5;rounded=0;fontSize=18;" edge="1" parent="1" source="a7DJOjHJFXQFd17sZ_x1-44" target="a7DJOjHJFXQFd17sZ_x1-45">
           <mxGeometry relative="1" as="geometry">
