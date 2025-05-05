@@ -10,7 +10,7 @@
         <mxCell id="QCbK4rGyloYIYMNYVspa-28" value="后端服务" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="340" y="-12" width="1540" height="148" as="geometry" />
         </mxCell>
-        <mxCell id="QCbK4rGyloYIYMNYVspa-29" value="前端界面" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="QCbK4rGyloYIYMNYVspa-29" value="前端界面" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="335" y="-220" width="1545" height="148" as="geometry" />
         </mxCell>
         <mxCell id="QCbK4rGyloYIYMNYVspa-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="QCbK4rGyloYIYMNYVspa-30" target="QCbK4rGyloYIYMNYVspa-33">
@@ -43,13 +43,13 @@
         <mxCell id="QCbK4rGyloYIYMNYVspa-37" value="返回检测结果JSON响应" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1638.5" y="35" width="201.5" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="QCbK4rGyloYIYMNYVspa-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QCbK4rGyloYIYMNYVspa-38" target="QCbK4rGyloYIYMNYVspa-39">
+        <mxCell id="QCbK4rGyloYIYMNYVspa-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="QCbK4rGyloYIYMNYVspa-38" target="QCbK4rGyloYIYMNYVspa-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QCbK4rGyloYIYMNYVspa-38" value="加载检测模型并执行检测" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1060" y="35" width="206" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="QCbK4rGyloYIYMNYVspa-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QCbK4rGyloYIYMNYVspa-39" target="QCbK4rGyloYIYMNYVspa-37">
+        <mxCell id="QCbK4rGyloYIYMNYVspa-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="QCbK4rGyloYIYMNYVspa-39" target="QCbK4rGyloYIYMNYVspa-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QCbK4rGyloYIYMNYVspa-39" value="返回原始检测结果 (边界框/类别/置信度)" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
