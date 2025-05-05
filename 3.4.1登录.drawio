@@ -25,7 +25,7 @@
         <mxCell id="52NmFlTEE-syT0yV7xov-108" value="反馈登录失败信息" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1993.25" y="-54" width="230" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="52NmFlTEE-syT0yV7xov-109" value="处理登录请求 (/login)" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="52NmFlTEE-syT0yV7xov-109" value="处理登录请求" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1257" y="565.5" width="216" height="54" as="geometry" />
         </mxCell>
         <mxCell id="52NmFlTEE-syT0yV7xov-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="52NmFlTEE-syT0yV7xov-110" target="52NmFlTEE-syT0yV7xov-116">
