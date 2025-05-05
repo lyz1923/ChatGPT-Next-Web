@@ -1,9 +1,88 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.15">
   <diagram name="第 1 页" id="yT6Q-FKEiGSGmPdtbq2S">
-    <mxGraphModel>
+    <mxGraphModel dx="1340" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-20" value="循环处理单个图像" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="514" y="150" width="1046" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-21" value="接收图像列表与统一参数" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="20" y="247" width="236" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-22" value="初始化批处理任务" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="306" y="247" width="158" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-23" value="遍历图像列表" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="539" y="199" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-24" value="加载模型" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="886" y="185" width="94" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-25" value="图像预处理" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1077" y="185" width="110" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-26" value="执行模型推理" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1237" y="185" width="126" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="UWYnI_f27gCuCr2JDLN_-27" target="UWYnI_f27gCuCr2JDLN_-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-27" value="图像后处理" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1413" y="185" width="110" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;fontSize=18;" edge="1" parent="1" source="UWYnI_f27gCuCr2JDLN_-28" target="UWYnI_f27gCuCr2JDLN_-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1405" y="274" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-28" value="收集增强结果" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="290" width="126" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-29" value="返回批量结果集合" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="960" y="440" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=18;" edge="1" parent="1" source="UWYnI_f27gCuCr2JDLN_-21" target="UWYnI_f27gCuCr2JDLN_-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=18;" edge="1" parent="1" source="UWYnI_f27gCuCr2JDLN_-22" target="UWYnI_f27gCuCr2JDLN_-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-32" value="对每个图像" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.29;entryX=0;entryY=0.5;rounded=0;fontSize=18;" edge="1" parent="1" source="UWYnI_f27gCuCr2JDLN_-23" target="UWYnI_f27gCuCr2JDLN_-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="764" y="212" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=18;" edge="1" parent="1" source="UWYnI_f27gCuCr2JDLN_-24" target="UWYnI_f27gCuCr2JDLN_-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=18;" edge="1" parent="1" source="UWYnI_f27gCuCr2JDLN_-25" target="UWYnI_f27gCuCr2JDLN_-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=18;" edge="1" parent="1" source="UWYnI_f27gCuCr2JDLN_-26" target="UWYnI_f27gCuCr2JDLN_-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWYnI_f27gCuCr2JDLN_-38" value="列表处理完毕" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.68;entryX=0.29;entryY=0;rounded=0;fontSize=18;" edge="1" parent="1" source="UWYnI_f27gCuCr2JDLN_-23" target="UWYnI_f27gCuCr2JDLN_-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="764" y="329" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
