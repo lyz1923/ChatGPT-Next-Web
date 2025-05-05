@@ -1,9 +1,101 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.2.15">
   <diagram name="第 1 页" id="PtlYNzMjPAPCrvF23xK6">
-    <mxGraphModel>
+    <mxGraphModel dx="1277" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-59" value="数据库" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1166" y="585" width="1194" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-60" value="后端服务" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="890" y="230" width="1470" height="298" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-61" value="前端界面" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="890" y="30" width="1470" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="OF_37yNOr1ChyMWkfy8v-62" target="OF_37yNOr1ChyMWkfy8v-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-62" value="接收用户名/邮箱/密码" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="918" y="69" width="230" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-63" value="反馈注册成功并跳转登录页" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="2121" y="69" width="230" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-64" value="反馈注册失败信息" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="69" width="230" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-65" value="处理注册请求 (/register)" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="915" y="352" width="236" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="OF_37yNOr1ChyMWkfy8v-66" target="OF_37yNOr1ChyMWkfy8v-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-66" value="用户名/邮箱是否已存在?" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="265" width="228" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="OF_37yNOr1ChyMWkfy8v-67" target="OF_37yNOr1ChyMWkfy8v-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-67" value="生成密码哈希值" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1761" y="352" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="OF_37yNOr1ChyMWkfy8v-68" target="OF_37yNOr1ChyMWkfy8v-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-68" value="生成注册成功响应" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="2142" y="352" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="OF_37yNOr1ChyMWkfy8v-69" target="OF_37yNOr1ChyMWkfy8v-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-69" value="生成注册失败响应 (已存在)" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="352" width="253" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-70" value="查询用户表 (检查用户名/邮箱)" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1184" y="620" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="OF_37yNOr1ChyMWkfy8v-71" target="OF_37yNOr1ChyMWkfy8v-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1597" y="632" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="OF_37yNOr1ChyMWkfy8v-71" target="OF_37yNOr1ChyMWkfy8v-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1847" y="632" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-71" value="返回查询结果 (是否存在)" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1609" y="632" width="207" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-72" value="向用户表插入新记录" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="632" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="OF_37yNOr1ChyMWkfy8v-73" target="OF_37yNOr1ChyMWkfy8v-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-73" value="确认记录插入成功" style="rounded=1;arcSize=20;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="2157" y="632" width="158" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-75" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=18;" edge="1" parent="1" source="OF_37yNOr1ChyMWkfy8v-65" target="OF_37yNOr1ChyMWkfy8v-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-77" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=18;" edge="1" parent="1" source="OF_37yNOr1ChyMWkfy8v-70" target="OF_37yNOr1ChyMWkfy8v-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OF_37yNOr1ChyMWkfy8v-80" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fontSize=18;" edge="1" parent="1" source="OF_37yNOr1ChyMWkfy8v-72" target="OF_37yNOr1ChyMWkfy8v-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
